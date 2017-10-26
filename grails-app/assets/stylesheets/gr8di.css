@@ -1,5 +1,5 @@
 /*!
- * gr8DI - Agency v4.0.0-beta (https://gr8di.org)
+ * gr8DI - GR8DI v4.0.0-beta (https://gr8di.org)
  * Copyright 2017-2017 gr8di
  */
 body {
@@ -101,6 +101,10 @@ body {
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
+      #mainNav .navbar-brand img {
+        height: 60px;
+        width: 60px;
+        margin-right: 10px; }
     #mainNav .navbar-nav .nav-item .nav-link {
       padding: 1.1em 1em !important; }
     #mainNav.navbar-shrink {
@@ -109,7 +113,10 @@ body {
       background-color: #222222; }
       #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
-        padding: 12px 0; } }
+        padding: 12px 0; }
+        #mainNav.navbar-shrink .navbar-brand img {
+          height: 40px;
+          width: 40px; } }
 
 header.masthead {
   text-align: center;
@@ -156,6 +163,11 @@ header.masthead {
       margin-bottom: 50px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; } }
+
+#carouselExampleControls {
+  height: 100vh; }
+  #carouselExampleControls img {
+    height: 100vh; }
 
 .service-heading {
   margin: 15px 0;
@@ -604,8 +616,3 @@ ul.social-buttons {
   .btn-xl .badge {
     color: #2D9600;
     background-color: white; }
-
-.navbar-brand img {
-  height: 40px;
-  width: 40px;
-  margin-right: 10px; }

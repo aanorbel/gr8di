@@ -23,7 +23,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-<g:link class="navbar-brand js-scroll-trigger" uri="home">
+        <g:link class="navbar-brand js-scroll-trigger" uri="home">
             <asset:image src="logos/gr8di.png" alt=""/>Gr8DI</g:link>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive"
@@ -35,20 +35,20 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
 
-                <li class="nav-item">
-                    <g:link uri="events" class="nav-link active js-scroll-trigger">Events</g:link>
+                <li class="nav-item ">
+                    <g:link uri="events" class="nav-link ">Events</g:link>
                 </li>
                 <li class="nav-item">
-                    <g:link uri="about" class="nav-link active js-scroll-trigger">About</g:link>
+                    <g:link uri="about" class="nav-link ${controllerName == 'about' ? 'active' : ''}">About</g:link>
                 </li>
                 <li class="nav-item">
-                    <g:link uri="sponsors" class="nav-link active js-scroll-trigger">Sponsors</g:link>
+                    <g:link uri="sponsors" class="nav-link ${controllerName == 'sponsors' ? 'active' : ''}">Sponsors</g:link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+                    <a class="nav-link" href="">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    <a class="nav-link" href="">Contact</a>
                 </li>
             </ul>
         </div>
@@ -64,7 +64,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <span class="copyright">Copyright &copy; Your Website 2017</span>
+                <span class="copyright">Copyright &copy; gr8di 2017</span>
             </div>
 
             <div class="col-md-4">

@@ -6,6 +6,7 @@
 // Components
 @import "navbar.scss";
 @import "masthead.scss";
+@import "home.scss";
 @import "services.scss";
 @import "portfolio.scss";
 @import "timeline.scss";
@@ -15,11 +16,3 @@
 @import "footer.scss";
 // Bootstrap Overrides
 @import "bootstrap-overrides.scss";
-
-.navbar-brand{
-  img{
-    height: 40px;
-    width: 40px;
-    margin-right: 10px;
-  }
-}

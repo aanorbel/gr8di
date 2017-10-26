@@ -52,6 +52,11 @@
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s;
+      img{
+        height: 60px;
+        width: 60px;
+        margin-right: 10px;
+      }
     }
     .navbar-nav {
       .nav-item {
@@ -67,6 +72,10 @@
       .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;
+        img{
+          height: 40px;
+          width: 40px;
+        }
       }
     }
   }
