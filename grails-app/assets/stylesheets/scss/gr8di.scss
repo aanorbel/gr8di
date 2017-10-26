@@ -1,0 +1,25 @@
+// Core variables and mixins
+@import "variables.scss";
+@import "mixins.scss";
+// Global CSS
+@import "global.scss";
+// Components
+@import "navbar.scss";
+@import "masthead.scss";
+@import "services.scss";
+@import "portfolio.scss";
+@import "timeline.scss";
+@import "team.scss";
+@import "sponsor.scss";
+@import "contact.scss";
+@import "footer.scss";
+// Bootstrap Overrides
+@import "bootstrap-overrides.scss";
+
+.navbar-brand{
+  img{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+  }
+}
