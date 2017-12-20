@@ -23,7 +23,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-        <g:link class="navbar-brand js-scroll-trigger" uri="/home">
+        <g:link class="navbar-brand js-scroll-trigger" uri="home">
             <asset:image src="logos/gr8di.png" alt=""/>Gr8DI</g:link>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive"
@@ -36,16 +36,16 @@
             <ul class="navbar-nav ml-auto">
 
                 <li class="nav-item ">
-                    <g:link uri="/events" class="nav-link ">Events</g:link>
+                    <g:link uri="events" class="nav-link ">Events</g:link>
                 </li>
                 <li class="nav-item">
-                    <g:link uri="/about" class="nav-link ${controllerName == 'about' ? 'active' : ''}">About</g:link>
+                    <g:link uri="about" class="nav-link ${controllerName == 'about' ? 'active' : ''}">About</g:link>
                 </li>
                 <li class="nav-item">
-                    <g:link uri="/sponsors" class="nav-link ${controllerName == 'sponsors' ? 'active' : ''}">Sponsors</g:link>
+                    <g:link uri="sponsors" class="nav-link ${controllerName == 'sponsors' ? 'active' : ''}">Sponsors</g:link>
                 </li>
                 <li class="nav-item">
-                    <g:link uri="/register" class="nav-link ${controllerName == 'sponsors' ? 'active' : ''}">Join</g:link>
+                    <g:link uri="register" class="nav-link ${controllerName == 'sponsors' ? 'active' : ''}">Join</g:link>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="">Team</a>

@@ -10,3 +10,4 @@ build/
 .settings
 .classpath
 node_modules/
+bin/
