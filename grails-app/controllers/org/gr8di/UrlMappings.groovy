@@ -1,4 +1,4 @@
-package gr8di
+package org.gr8di
 
 class UrlMappings {
 

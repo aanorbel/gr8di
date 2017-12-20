@@ -5,14 +5,22 @@ import groovy.transform.ToString
 import grails.compiler.GrailsCompileStatic
 
 @GrailsCompileStatic
-@EqualsAndHashCode(includes='username')
-@ToString(includes='username', includeNames=true, includePackage=false)
+@EqualsAndHashCode(includes = 'username')
+@ToString(includes = 'username', includeNames = true, includePackage = false)
 class User implements Serializable {
 
     private static final long serialVersionUID = 1
 
+    String firstName
+    String lastName
+    String email
     String username
     String password
+    String city
+    String country
+    boolean helper
+    String helpKind
+    boolean isAdult
     boolean enabled = true
     boolean accountExpired
     boolean accountLocked
@@ -23,11 +31,19 @@ class User implements Serializable {
     }
 
     static constraints = {
-        password nullable: false, blank: false, password: true
+        password nullable: false, blank: false, password: true, size:5..20
         username nullable: false, blank: false, unique: true
+        firstName nullable: false, blank: false
+        lastName nullable: false, blank: false
+        email nullable: false, blank: false, email: true
+        city nullable: true
+        country nullable: true
+        helpKind nullable: true
+        isAdult nullable: false, blank: false, inList: [true]
     }
 
     static mapping = {
-	    password column: '`password`'
+        password column: '`password`'
     }
+    static transients = ['confirmPassword']
 }

@@ -45,6 +45,9 @@
                     <g:link uri="sponsors" class="nav-link ${controllerName == 'sponsors' ? 'active' : ''}">Sponsors</g:link>
                 </li>
                 <li class="nav-item">
+                    <g:link uri="register" class="nav-link ${controllerName == 'sponsors' ? 'active' : ''}">Join</g:link>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="">Team</a>
                 </li>
                 <li class="nav-item">

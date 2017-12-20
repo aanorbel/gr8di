@@ -76,6 +76,9 @@ body {
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #1e6300; }
+    #mainNav .navbar-brand img {
+      height: 40px;
+      width: 40px; }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
@@ -530,6 +533,9 @@ ul.social-buttons {
     background-color: #222222; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
       background-color: #2D9600; }
+
+#card-login {
+  padding: 35px; }
 
 .text-primary {
   color: #2D9600 !important; }
